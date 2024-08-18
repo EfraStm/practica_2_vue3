@@ -1,0 +1,201 @@
+{
+  "pacientes": [
+    {
+      "id": "2",
+      "nombre": "Ana García Prado",
+      "telefono": "555-5678",
+      "direccion": "456 Calle Verdadera",
+      "fecha_nacimiento": "1990-05-22",
+      "historia_clinica": "Paciente con antecedentes de gingivitis."
+    },
+    {
+      "id": "3",
+      "nombre": "Luis Martínez",
+      "telefono": "555-9999",
+      "direccion": "789 Calle Inventada",
+      "fecha_nacimiento": "1985-07-30",
+      "historia_clinica": "Paciente con antecedentes de sensibilidad dental."
+    },
+    {
+      "id": "4",
+      "nombre": "Marta López",
+      "telefono": "555-8888",
+      "direccion": "123 Calle Real",
+      "fecha_nacimiento": "1975-11-10",
+      "historia_clinica": "Paciente con antecedentes de ortodoncia."
+    },
+    {
+      "id": "5",
+      "nombre": "Pedro Sánchez",
+      "telefono": "555-7777",
+      "direccion": "456 Calle Real",
+      "fecha_nacimiento": "1992-03-14",
+      "historia_clinica": "Paciente con antecedentes de blanqueamiento dental."
+    },
+    {
+      "id": "6",
+      "nombre": "Juanito Perez",
+      "direccion": "16 de Julio",
+      "telefono": "7887555",
+      "fecha_nacimiento": "2000-22-10",
+      "historia_clinica": "Limpieza dental cada media gestion"
+    },
+    {
+      "id": "7",
+      "nombre": "Juan",
+      "direccion": "Otero",
+      "telefono": "de la vega",
+      "fecha_nacimiento": "2024",
+      "historia_clinica": "Dolor de dientes"
+    }
+  ],
+  "odontologos": [
+    {
+      "id": "1",
+      "nombre": "Dra. María López",
+      "especialidad": "Endodoncia",
+      "telefono": "555-8765"
+    },
+    {
+      "id": "2",
+      "nombre": "Dr. Carlos Fernández",
+      "especialidad": "Periodoncia",
+      "telefono": "555-4321"
+    },
+    {
+      "id": "3",
+      "nombre": "Dra. Ana Martínez",
+      "especialidad": "Ortodoncia",
+      "telefono": "555-6543"
+    },
+    {
+      "id": "4",
+      "nombre": "Dr. Javier Torres",
+      "especialidad": "Implantes",
+      "telefono": "555-34561"
+    }
+  ],
+  "citas": [
+    {
+      "id": "2",
+      "pacienteId": "2",
+      "odontologoId": "2",
+      "fecha": "2024-08-02",
+      "hora": "14:00",
+      "motivo": "Revisión de dientes"
+    },
+    {
+      "id": "3",
+      "pacienteId": "3",
+      "odontologoId": "3",
+      "fecha": "2024-08-03",
+      "hora": "11:00",
+      "motivo": "Ajuste de brackets"
+    },
+    {
+      "id": "4",
+      "pacienteId": "4",
+      "odontologoId": "4",
+      "fecha": "2024-08-04",
+      "hora": "12:00",
+      "motivo": "Consulta sobre implantes"
+    },
+    {
+      "pacienteId": "5",
+      "odontologoId": "3",
+      "fecha": "0044-03-31",
+      "hora": "12:34",
+      "motivo": "diente",
+      "id": "UFBG-YL"
+    }
+  ],
+  "tratamientos": [
+    {
+      "id": "1",
+      "nombre": "Limpieza Dental",
+      "descripcion": "Limpieza profunda de los dientes para eliminar placa y sarro."
+    },
+    {
+      "id": "2",
+      "nombre": "Relleno",
+      "descripcion": "Tratamiento para reparar dientes con caries."
+    },
+    {
+      "id": "3",
+      "nombre": "Blanqueamiento Dental",
+      "descripcion": "Tratamiento para aclarar el color de los dientes."
+    },
+    {
+      "id": "4",
+      "nombre": "Ortodoncia",
+      "descripcion": "Tratamiento para corregir dientes desalineados."
+    },
+    {
+      "id": "5",
+      "nombre": "Implantes Dentales",
+      "descripcion": "Colocación de implantes para reemplazar dientes perdidos."
+    }
+  ],
+  "pacientesTratamientos": [
+    {
+      "id": "3",
+      "pacienteId": "2",
+      "tratamientoId": "3",
+      "fecha": "2024-07-15"
+    },
+    {
+      "id": "4",
+      "pacienteId": "3",
+      "tratamientoId": "4",
+      "fecha": "2024-08-01"
+    },
+    {
+      "id": "5",
+      "pacienteId": "4",
+      "tratamientoId": "5",
+      "fecha": "2024-08-02"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "name": "Maria",
+      "email": "maria@example.com",
+      "password": "123456",
+      "role": "recepcionista",
+      "token": "s8dfalsdf82w2324wdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "2",
+      "name": "Rosa",
+      "email": "rosa@example.com",
+      "password": "123456",
+      "role": "odontologo",
+      "token": "sdffalsdf82weids8dfasdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "3",
+      "name": "Carmen",
+      "email": "carmen@example.com",
+      "password": "123456",
+      "role": "recepcionista",
+      "token": "s8dfalsdf82fsds8dfasdfsd9f0w9sdfs"
+    },
+    {
+      "id": "4",
+      "name": "Raul",
+      "email": "raul@example.com",
+      "password": "123456",
+      "role": "odontologo",
+      "token": "asdfasdfsf82weids8dfasdfsd9f0fsi8s"
+    },
+    {
+      "id": "5",
+      "name": "Mario",
+      "email": "mario@example.com",
+      "password": "123456",
+      "role": "admin",
+      "token": "2e34sef82weids8dfasdfsd9f0w9exdi8s"
+    }
+  ]
+}
